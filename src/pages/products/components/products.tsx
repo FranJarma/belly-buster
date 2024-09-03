@@ -1,5 +1,10 @@
-import React from "react";
+import {Layout} from "@components/layout";
 
 export const CrudProducts = () => {
-    return <div>CrudProducts</div>;
+    return (
+        <Layout>
+            <h1>Gestión de Productos</h1>
+            <section className="main__container"></section>
+        </Layout>
+    );
 };

@@ -1,0 +1,27 @@
+header {
+    align-items: center;
+    background-color: var(--gray-50);
+    display: flex;
+    justify-content: space-between;
+    height: 56px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+header {
+    button {
+        margin-left: 10px;
+    }
+}
+
+.header__user {
+    align-items: center;
+    display: flex;
+    gap: 2rem;
+    margin-right: 48px;
+    span {
+        cursor: pointer;
+    }
+}

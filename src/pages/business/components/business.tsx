@@ -1,9 +1,9 @@
 import {Layout} from "@components/layout";
 
-export const Home = () => {
+export const Business = () => {
     return (
         <Layout>
-            <h1>¡Bienvenido a Belly Buster!</h1>
+            <h1>Gestión de Mi Negocio</h1>
             <section className="main__container"></section>
         </Layout>
     );
