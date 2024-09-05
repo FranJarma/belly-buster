@@ -1,0 +1,36 @@
+.datatable__header {
+    display: flex;
+    gap: 12px;
+    justify-content: start;
+
+    .p-inputtext {
+        width: auto !important;
+    }
+
+    button {
+        gap: 4px;
+    }
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+
+        input {
+            width: 100%;
+        }
+    }
+
+    .p-button {
+        background-color: var(--gray-700);
+        border-color: var(--gray-100);
+    }
+
+    .p-button-outlined {
+        background-color: var(--gray-100);
+        border-color: var(--gray-700);
+        color: var(--gray-700);
+    }
+
+    input {
+        margin-left: auto;
+    }
+}

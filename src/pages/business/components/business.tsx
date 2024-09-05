@@ -4,7 +4,7 @@ export const Business = () => {
     return (
         <Layout>
             <h1>Gestión de Mi Negocio</h1>
-            <section className="main__container"></section>
+            <main className="main__container"></main>
         </Layout>
     );
 };

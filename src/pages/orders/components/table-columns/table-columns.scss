@@ -1,0 +1,33 @@
+.order__payment-method {
+    display: inline-flex;
+    gap: 6px;
+}
+
+.order__status-badge {
+    border-radius: 4px;
+    display: flex;
+    font-size: 14px;
+    font-weight: bold;
+    gap: 8px;
+    justify-content: center;
+    padding: 4px 8px;
+    text-transform: uppercase;
+
+    &--pending {
+        background-color: var(--orange-500);
+    }
+
+    &--delivered {
+        background-color: var(--green-500);
+    }
+
+    &--kitchen {
+        background-color: var(--blue-500);
+    }
+}
+
+.order__client-info {
+    align-items: center;
+    display: flex;
+    gap: 6px;
+}

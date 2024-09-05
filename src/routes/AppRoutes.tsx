@@ -1,12 +1,15 @@
-import {ROUTES_CONSTS} from "@constants/routes.constants";
-import {Login} from "@pages/auth/components/login/login";
-import {Business} from "@pages/business/components/business";
-import {Home} from "@pages/home/home";
-import {NotFound} from "@pages/not-found/not-found";
-import {CrudOrders} from "@pages/orders/components/orders";
-import {CrudProducts} from "@pages/products/components/products";
-import {CrudUsers} from "@pages/users/components/users";
 import {Route, RouteProps, Routes} from "react-router-dom";
+
+import {ROUTES_CONSTS} from "@constants/index";
+import {
+    Business,
+    CrudOrders,
+    CrudProducts,
+    CrudUsers,
+    Home,
+    Login,
+    NotFound,
+} from "@pages/index";
 
 const routes: RouteProps[] = [
     {

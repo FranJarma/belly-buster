@@ -1,0 +1,8 @@
+.autocomplete__container {
+    position: relative;
+    width: 100%;
+
+    .p-autocomplete-dropdown {
+        background: var(--gray-700);
+    }
+}

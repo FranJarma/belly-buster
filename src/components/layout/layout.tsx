@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-import {Aside, Footer, Header} from "./ui";
+import {Header, Footer} from ".";
 
 type LayoutProps = {
     children: React.ReactNode;

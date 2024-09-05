@@ -1,0 +1,38 @@
+.stepper {
+    &__container {
+        flex-basis: 50rem;
+    }
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        height: 12rem;
+    }
+
+    &__content-inner {
+        border: 2px dashed var(--surface-border);
+        border-radius: var(--border-radius);
+        background-color: var(--surface-ground);
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+    }
+
+    &__actions {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1rem;
+    }
+
+    &__button {
+        &--back {
+            margin-right: auto;
+        }
+
+        &--next {
+            margin-left: auto;
+        }
+    }
+}

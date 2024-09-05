@@ -1,0 +1,28 @@
+.grid__container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); // 12 columnas de tamaño flexible
+    gap: var(--gap, 16px); // Usamos gap dinámico
+}
+
+.grid__item {
+    grid-column: var(
+        --xs-columns,
+        span 12
+    ); // Valor por defecto es 12 columnas (100% ancho)
+
+    @media (min-width: 576px) {
+        grid-column: var(--sm-columns, span 12); // Para pantallas pequeñas
+    }
+
+    @media (min-width: 768px) {
+        grid-column: var(--md-columns, span 6); // Para pantallas medianas
+    }
+
+    @media (min-width: 992px) {
+        grid-column: var(--lg-columns, span 4); // Para pantallas grandes
+    }
+
+    @media (min-width: 1200px) {
+        grid-column: var(--xl-columns, span 3); // Para pantallas extra grandes
+    }
+}

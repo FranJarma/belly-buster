@@ -1,0 +1,52 @@
+.p-chip {
+    color: white;
+}
+
+// .form__create-order {
+//     align-items: center;
+//     display: flex;
+//     flex-direction: column;
+//     gap: 20px;
+//     justify-content: center;
+//     width: 100%;
+
+//     label {
+//         min-width: 75px;
+//         width: 85px;
+//     }
+
+//     input,
+//     .p-multiselect,
+//     .p-autocomplete,
+//     .p-dropdown,
+//     .p-inputnumber {
+//         overflow: hidden;
+//         width: 100%;
+//     }
+
+//     &__input {
+//         align-items: center;
+//         display: flex;
+//         gap: 24px;
+//         width: 100%;
+//     }
+// }
+
+.form__create-order {
+    position: relative;
+
+    .p-autocomplete,
+    .p-dropdown,
+    .p-inputnumber,
+    .p-multiselect,
+    .p-calendar,
+    .p-inputtext {
+        width: 100%;
+    }
+}
+
+.form__create-order-button {
+    gap: 8px;
+    justify-content: center;
+    width: 100%;
+}

@@ -1,0 +1,27 @@
+.p-multiselect {
+    .p-multiselect-token {
+        gap: 4px;
+    }
+}
+
+.p-multiselect-header {
+    background: var(--gray-200);
+    gap: 15px;
+
+    .p-multiselect-filter-container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+
+        .p-multiselect-filter-icon {
+            right: 24px;
+            position: relative;
+        }
+    }
+}
+
+.p-multiselect-items-wrapper {
+    .p-multiselect-item {
+        gap: 10px;
+    }
+}

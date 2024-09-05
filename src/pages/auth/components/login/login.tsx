@@ -1,9 +1,9 @@
-import React from "react";
-import "./login.scss";
 import {InputText} from "primereact/inputtext";
-import {Button} from "primereact/button";
 import {Link} from "react-router-dom";
-import {Footer} from "@components/ui";
+
+import {Footer} from "@components/layout";
+
+import "./login.scss";
 
 export const Login = () => {
     return (
